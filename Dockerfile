@@ -1,4 +1,4 @@
-FROM ruby:2.4.0
+FROM ruby:2.5.1
 
 RUN apt-get install -y libpq5 libpq-dev
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
